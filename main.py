@@ -101,14 +101,3 @@ for video in orderedVideos:
             }
         }
     ).execute()
-
-# youtube.playlists().insert(
-#     part='snippet',
-#     body={
-#         'snippet':{
-#             'title':'testPlaylist',
-#             'description':'testDescription',
-#             'privacyStatus':'public'
-#         }
-#     }
-# ).execute()
